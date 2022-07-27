@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://raf-backstage-demo.github.io/shared-workflows
     chart: cockroach-serverless
-    targetRevision: '0.1.0'
+    targetRevision: '0.1.5'
     helm:
       values: |
         application: myapp 
