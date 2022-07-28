@@ -33,6 +33,6 @@ spec:
   ignoreDifferences:
   - group: dbaas.redhat.com
     kind: DBaaSConnection
-    namespace: mydb-dev
+    namespace: myapp-dev
     jsonPointers:
     - /spec/instanceID        
