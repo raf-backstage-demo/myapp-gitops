@@ -38,6 +38,6 @@ spec:
     - /spec/instanceID
   - group: redhatcop.redhat.io    
     kind: DatabaseSecretEngineConfig
-    namespace: ${{values.application_id.split(":")[1]}}-dev
+    namespace: myapp-dev
     jsonPointers:
     - /spec/username    
