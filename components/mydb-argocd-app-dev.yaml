@@ -35,4 +35,9 @@ spec:
     kind: DBaaSConnection
     namespace: myapp-dev
     jsonPointers:
-    - /spec/instanceID        
+    - /spec/instanceID
+  - group: redhatcop.redhat.io    
+    kind: DatabaseSecretEngineConfig
+    namespace: ${{values.application_id.split(":")[1]}}-dev
+    jsonPointers:
+    - /spec/username    
