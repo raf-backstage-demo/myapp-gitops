@@ -40,4 +40,5 @@ spec:
     kind: DatabaseSecretEngineConfig
     namespace: myapp-dev
     jsonPointers:
-    - /spec/username    
+    - /spec/username
+    - /spec/connectionURL    
