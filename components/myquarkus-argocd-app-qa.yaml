@@ -17,7 +17,7 @@ spec:
       values: | 
         quarkus-run: 
           image:
-            tag: 8ca8ce14db0a450e9b92b269be06eaf2189fe895
+            tag: b6e9fc816d885479a0cc48df7c3cb46bf016eb05
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp-qa
