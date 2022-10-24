@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: mydb
-  description: mydb
-spec:
-  type: database
-  owner: demo-team-a
-  system: system:myapp
