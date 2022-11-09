@@ -4,7 +4,7 @@ metadata:
   name: ciao
   description: a Fedora VM
   links:
-    - url: https://console-openshift-console.apps.control-cluster-raffa.demo.red-chesterfield.com/k8s/ns/myapp/kubevirt.io~v1~VirtualMachine/ciao/console/standalone
+    - url: https://console-openshift-console.apps.control-cluster-raffa.demo.red-chesterfield.com/k8s/ns/myapp-dev/kubevirt.io~v1~VirtualMachine/ciao/console/standalone
       title: VM Console
       icon: web  
 spec:
