@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: vinny
+  description: a Fedora VM
+  links:
+    - url: https://console-openshift-console.apps.control-cluster-raffa.demo.red-chesterfield.com/k8s/ns/myapp/kubevirt.io~v1~VirtualMachine/vinny/console/standalone
+      title: VM Console
+      icon: web  
+spec:
+  type: virtual-machine
+  owner: demo-team-a
+  system: system:myapp
